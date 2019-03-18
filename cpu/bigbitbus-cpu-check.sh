@@ -21,8 +21,8 @@
 WORKDIR="/tmp/bigbitbus"
 STRESS_VERSION="0.09.23"
 STRESS_SOURCE_URL="http://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-$STRESS_VERSION.tar.xz"
-BIGBITBUS_RECEIVER_ENDPOINT="http://127.0.0.1:8000/api/ingest/v1/upload"
-EACH_PERCENT_TIME=2  #seconds for each test configuration run
+BIGBITBUS_RECEIVER_ENDPOINT="https://bigbitbus.com/api/ingest/v1/upload"
+EACH_PERCENT_TIME=60  #seconds for each test configuration run
 
 if [ -z "$1" ]
 then
