@@ -21,8 +21,9 @@
 WORKDIR="/tmp/bigbitbus"
 STRESS_VERSION="0.09.23"
 STRESS_SOURCE_URL="http://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-$STRESS_VERSION.tar.xz"
-BIGBITBUS_RECEIVER_ENDPOINT="https://bigbitbus.com/api/ingest/v1/upload"
-EACH_PERCENT_TIME=60  #seconds for each test configuration run
+BIGBITBUS_RECEIVER_ENDPOINT="https://www.bigbitbus.com/api/ingest/v1/upload"
+
+
 
 if [ -z "$1" ]
 then
@@ -38,6 +39,15 @@ then
 else
     BURN_IN_TIME_SECONDS=$3
 fi
+
+#seconds for each test configuration run - use this for testing.
+if [ -z "$3" ]
+then
+    EACH_PERCENT_TIME=60  # 60 seconds per perf test
+else
+    EACH_PERCENT_TIME=$3
+fi
+
 
 # Determine OS platform
 UNAME=$(uname | tr "[:upper:]" "[:lower:]")
