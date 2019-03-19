@@ -1,8 +1,8 @@
 # BigBitBus Test Scripts
 
-This repository contains a scripts to collect system and performance
-information. These scripts collect and upload this information to BigBitBus
-servers, which will then analyze the uploaded information and present
+This repository contains scripts to collect system and performance
+information and upload this information to BigBitBus
+servers, which then analyze the uploaded information and present
 informational reports based on the uploaded data. These reports can contain
 comparisons with standard hardware and cloud providers so users can compare
 their systems to other systems. Please see the important information in the
