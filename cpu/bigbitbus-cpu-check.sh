@@ -76,6 +76,7 @@ else
 fi
 
 # Setup workdirectory
+rm -rf $WORKDIR # Clean up previous runs
 mkdir -p $WORKDIR
 
 # Compile and Install stressng from source
