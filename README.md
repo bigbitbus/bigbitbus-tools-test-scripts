@@ -48,3 +48,7 @@ relative performance and pricing of similar cloud VMs.
    open-source software on your test server. Please read the script to fully
    understand how it works and what will be installed.
 
+4. We currently share data for up to 8-vCPU cloud VMs, so the tool wont be
+   useful for say, 40 core bare metal servers!. [Contact
+   us](mailto:contact@bigbitbus.com) if you want to see other VM support.
+
