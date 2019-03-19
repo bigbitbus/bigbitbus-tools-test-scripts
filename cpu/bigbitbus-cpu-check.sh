@@ -37,7 +37,7 @@ if [ -z "$2" ]
 then
     BURN_IN_TIME_SECONDS=1 #since 0 would mean infinite run
 else
-    BURN_IN_TIME_SECONDS=$3
+    BURN_IN_TIME_SECONDS=$2
 fi
 
 #seconds for each test configuration run - use this for testing.
