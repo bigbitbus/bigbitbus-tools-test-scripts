@@ -10,7 +10,7 @@ their systems to other systems. Please see the important information in the
 
 ## How does it work?
 
-When you [visit https://www.bigbitbus.com/tools/machinereport](https://www.bigbitbus.com/tools/machinereport)
+When you visit [https://www.bigbitbus.com/tools/machinereport](https://www.bigbitbus.com/tools/machinereport)
 you will be shown instructions on running a command on your test server's
 command line. The tool currently supports Redhat, Ubuntu and Amazon Linux. There
 will also be a unique link, randomly generated every time the page is visited,
@@ -51,4 +51,3 @@ relative performance and pricing of similar cloud VMs.
 4. We currently share data for up to 8-vCPU cloud VMs, so the tool wont be
    useful for say, 40 core bare metal servers!. [Contact
    us](mailto:contact@bigbitbus.com) if you want to see other VM support.
-
