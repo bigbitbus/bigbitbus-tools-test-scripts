@@ -19,7 +19,7 @@
 
 # Some parameters
 WORKDIR="/tmp/bigbitbus"
-STRESS_VERSION="0.09.23"
+STRESS_VERSION="0.09.57"
 STRESS_SOURCE_URL="http://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-$STRESS_VERSION.tar.xz"
 BIGBITBUS_RECEIVER_ENDPOINT="https://www.bigbitbus.com/api/ingest/v1/upload"
 
@@ -82,6 +82,7 @@ mkdir -p $WORKDIR
 # Compile and Install stressng from source
 cd $WORKDIR
 wget $STRESS_SOURCE_URL
+
 tar xf stress-ng-$STRESS_VERSION.tar.xz
 cd $WORKDIR/stress-ng-$STRESS_VERSION
 make
